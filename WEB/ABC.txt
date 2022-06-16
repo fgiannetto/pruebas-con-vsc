@@ -1,0 +1,15 @@
+Valores agregados 
+Visualizar ek dati de forma sencilla e intuitiva
+SQL --> Postgre
+arrow/agrow?
+Python buena eleccion. (Tambien hace graficas)
+Perfeccion no, que sirva. OFRECER MEJORA
+(A futuro) Georeferencia
+(Extra) No definir limite de usuarios
+(Extra) El cliente elige los colores. Personalizacion.
+Terciarizar servidores.
+(A futuro) App para servicios en planta.
+(A futuro) Organizacion de la app en base a alarmas.
+(A futuro) Usuarios de la app.
+ftp -> http (A futuro) httpS
+Analisis de mercado...

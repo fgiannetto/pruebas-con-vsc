@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="utf-8"/>
+        <title>  
+            {% block title %}
+            
+            {% endblock %}    
+            | DASTEC SRL
+        </title>  
+
+        
+        {%load static%}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+</head>
+
+<body>
+
+    <!--Cabecera de la pagina-->
+    <header>
+        <div id="logotipo">
+            <!--Logo-->
+            <img src="{% static 'images/dastec.png' %}"/>
+            <h1>Dastec Telemetria</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/inicio"> Inicio </a>
+            </li>
+            <li>
+                <a href= "/hola-mundo"> Hola Mundo </a>
+            </li>
+            <li>
+                <a href= "/pagina-pruebas">Pagina de pruebas </a>
+            </li>
+            <li>
+                <a href= "/contacto">Contacto </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="barra">
+        <span class="esquina-izq"></span>
+        <span class="relleno-barra"></span>
+        <span class="esquina-der"></span>
+    </div>
+
+    
+    <div id="content">
+        <div class="box">
+        
+        {% block content %}
+            <!--Codigo que viene de templates-->
+            <strong>Contenido original del bloque</strong>
+        {% endblock %}  
+        </div>
+    </div>
+
+    <footer>
+        Franco está quemado &copy; FRANCO GIANNETTO
+    </footer>
+    
+</body>
+
+</html>
